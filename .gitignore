@@ -1,0 +1,38 @@
+# ── Archivos del servidor (generados automáticamente) ──
+server/world/
+server/world_nether/
+server/world_the_end/
+server/logs/
+server/crash-reports/
+server/cache/
+server/libraries/
+server/forge-*.jar
+server/minecraft_server.*.jar
+server/run.bat
+server/run.sh
+server/user_jvm_args.txt
+server/eula.txt
+server/ops.json
+server/whitelist.json
+server/banned-ips.json
+server/banned-players.json
+server/usercache.json
+server/usernamecache.json
+server/forge-*-installer.jar
+server/*.log
+server/installer.log
+
+# ── SÍ incluir en git ──────────────────────────────────
+# server/mods/          ← tus mods van en git
+# server/server.properties
+# server/config/        ← configuración de mods
+
+# ── Sistema ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# ── Java ──────────────────────────────────────────────
+*.class
+target/
